@@ -1,0 +1,76 @@
+body{
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    margin: 4% auto  
+}
+.calculator{
+    padding: 20px;
+    border-radius: 1px;
+}
+.input{
+    border: 1px solid;
+    border-radius: 1px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+}
+.buttons{}
+.operators{}
+
+.operators div{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 1px;
+    width: 79.5px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    color: #bbb;
+}
+.operators div:active{
+    font-weight: bold;
+}
+
+.leftPanel{
+    display: inline-block;
+}
+
+.numbers div{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 1px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+.numbers div:active{
+    font-weight: bold;
+}
+.equal{
+    display: inline-block;
+    border: 1px solid #3079ED;
+    border-radius: 1px;
+    width: 77px;
+    text-align: center;
+    padding: 127px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #4d90fe;
+    transition: all .2s ease-in-out;
+}
+.equal:active{
+    font-weight:bold;
+}
